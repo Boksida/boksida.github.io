@@ -1,0 +1,60 @@
+:root{
+    --text-main: white;
+    --text-secondary: rgba(255, 255, 255, 0.514);  
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), transparent);
+    position: absolute;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav * {
+    margin: 1rem 3rem;
+}
+
+.search {
+    all: unset;
+    font-family: "lato", "sans-sherif";
+    font-weight: normal;
+    /* color: #cac7ff; */
+    color: var(--text-main);
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--text-main);
+}
+
+.main {
+    
+}
+
+.main-image {
+    width: 100vw;
+}
+
+.main-title{
+    font-family: "Fugaz One", 'sans-serif';
+    font-weight: 400;
+    font-size: 3rem;
+    font-style: normal;
+    color: red;
+}
+
+#logo, #cart{
+    font-size: 3rem;
+    color: var(--text-main);
+}
