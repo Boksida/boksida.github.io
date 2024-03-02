@@ -1,0 +1,2 @@
+# cinematix
+ Simple Cinema Page
