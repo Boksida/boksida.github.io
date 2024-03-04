@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" rel="icon" href="./images/cinematix.svg">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
     <title>Cinematix</title>
-  </head>
-
-  <body>
-    <header>
-      <nav>
-        <!-- Logo -->
-        <i class='bx bxs-copyright' id="logo"></i>
-        <!-- Search -->
-        <form action="/search">
-          <input class="search" type="text" name="search" placeholder="search your movie..." id="input">
-        </form>
-        <!-- Cart -->
-        <i class='bx bxs-cart' id="cart"></i>
-      </nav>
+</head>
+<body>
+    <header class="header">
+        <div class="logo1">
+            <img src="images/cinematix.svg" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li class="links"><a href="#">Prices</a></li>
+                <li class="links"><a href="#">Location</a></li>
+                <li class="links"><a href="#">Movies</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="#"><button>Account</button></a>
     </header>
-
-    <div class="main">
-      <img class="main-image" src="./images/background.jpg" alt="">
-      <h1 class="main-title">Dungeons & Dragons: Honor Among Thieves</h1>
-      <p class="main-description"></p>
-      <button><i class="ticket"/> Buy Tickets</button>
-    </div>
-
-    <div class="listing">
-      <div class="movie">
-        <img class="movie-image" src="" alt="">
-        <p class="movie-title"></p>
-      </div>
-    </div>
-
-  </body>
+    <main>
+        <div class="trending">
+            <div class="minfo">
+                <a class="dg" href="https://youtu.be/IiMinixSXII"><h1>Dungeons & Dragons: Honor Among Thieves</h1></a>
+                <p>A charming thief and a band of unlikely adventurers embark on an epic quest to retrieve a lost relic, but things go dangerously awry when they run afoul of the wrong people.</p>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/3c/02/1c/3c021c34-851d-bb7f-b426-d62683a4ac42/SPE_SPIDERMAN_ATS_TH_FINAL_ITUNES_WW_ARTWORK_EN_2000x3000_3TUF3R000066S7.lsr/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/d3/ff/e2/d3ffe2a6-7e3f-10bb-6f86-50fac6efc979/2000x3000_FIVE_NIGHTS_AT_FREDDYS_INTL_ENG_Keyart_EPO_XYi_psb-srgb.lsr/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/19/67/71/1967711d-8a1e-b12a-7932-f5e5cc08c6b8/pr_source.jpg/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video115/v4/73/e2/ad/73e2ad51-def1-ad9e-4318-27a8c0b9773d/SCOTTPILGRIMVSTHEWORLD_2000x3000.lsr/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video126/v4/a6/95/50/a69550cf-7e12-1057-1e8c-1d42db769c1f/SPE_SPIDERMAN_NO_WAY_HOME_TH_US_ARTWORK_EN-US_2000x3000_3358QV00000HRX.lsr/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video125/v4/f3/74/ff/f374ff76-888b-f619-c367-138175ba63a3/pr_source.jpg/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/15/53/b9/1553b93b-25b7-cbed-eff5-34d8efe8e09a/pr_source.lsr/600x600bb.jpg">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/27/71/77/277177ec-05ad-ea5f-9aac-51c2c2165715/4a7fdb6c-4106-49bf-a838-6db279a48a5a_AQUAMAN_LOST_KINGDOM_STD_APO_V_DD_KA_TT_2000x3000_300dpi_EN.jpg/600x600bb.jpg">
+            </div>
+        </div>
+        
+    <footer>
+        <div class="logo">
+        <img src="images/cinematix2.png" alt="logo de mi marca" class="logo">
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon"></a>
+            <a href="#" class="social-icon"></a>
+            <a href="#" class="social-icon"></a>
+            <a href="#" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu">
+            <li class="menu-item">Reserve</li>
+            <li class="menu-item">Location</li>
+            <li class="menu-item">Privacy</li>
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Refounds</li>
+        </ul>
+        <span class="copyright">&copy;2024, Boxxy and company. All rights reserved.</span>
+    </footer>
+    </main>
+    
+</body>
 </html>
